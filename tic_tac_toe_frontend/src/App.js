@@ -4,6 +4,7 @@ import GameBoard from "./components/GameBoard";
 import PlayerIndicator from "./components/PlayerIndicator";
 import ResetButton from "./components/ResetButton";
 import TitleHeader from "./components/TitleHeader";
+import AssistantChat from "./components/AssistantChat";
 
 // Load .env variables (for future backend integration/config):
 let endpoint = null;
@@ -129,6 +130,8 @@ function App() {
         />
         <ResetButton onReset={handleReset} />
       </main>
+      {/* Floating OpenAI Assistant Widget - see AssistantChat.js for details. */}
+      <AssistantChat />
     </div>
   );
 }

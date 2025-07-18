@@ -1,0 +1,12 @@
+.ttt-title-header {
+  margin-bottom: 1.7em;
+  text-align: center;
+  padding-top: 1.1em;
+}
+.ttt-title-header h1 {
+  font-size: 2.17rem;
+  font-weight: 800;
+  color: var(--primary-color, #1976D2);
+  letter-spacing: 0.03em;
+  margin: 0;
+}

@@ -1,0 +1,17 @@
+.ttt-player-indicator {
+  margin-bottom: 1.1em;
+  font-size: 1.34rem;
+  font-weight: 500;
+  color: var(--primary-color, #1976D2);
+  background: var(--accent-bg, #fffde8);
+  border-radius: 8px;
+  padding: 0.3em 1.5em 0.3em 1.5em;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.03);
+  letter-spacing: 0.04em;
+}
+.ttt-player-indicator strong {
+  color: var(--accent-color, #FFEB3B);
+  background: var(--primary-color, #1976D2);
+  border-radius: 4px;
+  padding: 0 .23em;
+}
